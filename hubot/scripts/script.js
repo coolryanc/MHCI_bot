@@ -21,7 +21,7 @@ module.exports = function(robot){
 		let filepath = path.join(__dirname, 'data', 'accounting.txt')
 
 		// show ledger 
-		if(res.message.text==="maimai 記帳本" || res.message.text==="記帳本"){
+		if(res.message.text==="gakkichan 記帳本" || res.message.text==="記帳本"){
 			fsdata.readFile(filepath,'utf8',function(err,data){
 				if(err){
 					res.reply("Sorry, my bad.."); // can't read data
