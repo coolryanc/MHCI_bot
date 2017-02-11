@@ -8,7 +8,7 @@ module.exports = function(robot){
     });
 
 
-    // ============
+   // ============
 	// ledger info
 	// ============
 	robot.hear(/記帳 (.*)|記帳本/i,function(res){
