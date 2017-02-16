@@ -1,1 +1,1 @@
-[{"registerPerson":"yuanc","say":"我欠浩恩55元"},{"registerPerson":"yuanc","say":"德彥欠我50元"},{"registerPerson":"yuanc","say":"syc欠我10元"},{"registerPerson":"wuder","say":"德彥欠我240元"}]
+[{"registerPerson":"yuanc","say":"我欠無德40(珍珠波霸紅茶)","date":"2/16/2017"}]
