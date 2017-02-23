@@ -1,1 +1,1 @@
-[{"registerPerson":"yuanc","say":"我欠無德40(珍珠波霸紅茶)","date":"2/16/2017"}]
+[{"registerPerson":"syclin","say":"wuder欠我30塊","date":"2/23/2017"},{"registerPerson":"syclin","say":"steven 欠德彥 200 塊","date":"2/17/2017"},{"registerPerson":"yuanc","say":"syc欠我45","date":"2/21/2017"},{"registerPerson":"yuanc","say":"德彥欠我45","date":"2/21/2017"},{"registerPerson":"yuanc","say":"我欠德彥95","date":"2/23/2017"}]
