@@ -4,7 +4,12 @@
   "private": true,
   "author": "ryanC1993 <tommy149347@gmail.com>",
   "description": "Hope to bring mhci lab happiness.",
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/nodeunit/bin/nodeunit -- test/",
+    "converalls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
   "dependencies": {
+    "coveralls": "^3.0.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
@@ -17,7 +22,9 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^4.3.1"
+    "hubot-slack": "^4.3.1",
+    "istanbul": "^0.4.5",
+    "nodeunit": "^0.11.2"
   },
   "engines": {
     "node": "0.10.x"
