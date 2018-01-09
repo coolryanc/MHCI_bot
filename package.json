@@ -6,7 +6,7 @@
   "description": "Hope to bring mhci lab happiness.",
   "scripts": {
     "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/nodeunit/bin/nodeunit -- hubot/test/",
-    "converalls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "dependencies": {
     "coveralls": "^3.0.0",
